@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ping Pong Game</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Background Style */
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    /* Container for Centering Content */
+    .container {
+      max-width: 800px;
+      width: 90%;
+      text-align: center;
+      padding: 24px;
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+      margin-bottom: 20px;
+    }
+
+    /* Title Style */
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #bb86fc;
+      font-weight: 500;
+    }
+
+    /* Subtitle Styling */
+    p.subtitle {
+      color: #a1a1a1;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Video Wrapper Styling */
+    .video-wrapper {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Footer Styling */
+    footer {
+      text-align: center;
+      color: #a1a1a1;
+      font-size: 0.9rem;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    footer span {
+      color: #bb86fc;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Ping Pong Game</h1>
+    <p class="subtitle">An engaging game created using Python</p>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/0Fb6mjqhBqc" title="Ping Pong Game Using Python" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+  <footer>
+    © 2024 <span>98thPercentile</span>. All Rights Reserved.
+  </footer>
+</body>
+</html>
